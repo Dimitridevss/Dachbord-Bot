@@ -538,26 +538,26 @@
             
             const webhookData = {
                 embeds: [{
-                    title: "تقييم جديد",
+                    title: "تقييم جديد/New evaluation",
                     color: 4886754,
                     fields: [
                         {
-                            name: "الاسم",
+                            name: "الاسم/name",
                             value: name,
                             inline: true
                         },
                         {
-                            name: "التقييم",
+                            name: "التقييم/Evaluation",
                             value: "★".repeat(rating) + "☆".repeat(5 - rating),
                             inline: true
                         },
                         {
-                            name: "اسم المستخدم في ديسكورد",
+                            name: "اسم المستخدم في ديسكورد/Discord username",
                             value: discordUsername || "غير محدد",
                             inline: true
                         },
                         {
-                            name: "التعليق",
+                            name: "التعليق/feedback",
                             value: feedback
                         }
                     ],
